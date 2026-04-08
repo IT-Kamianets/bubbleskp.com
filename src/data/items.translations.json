@@ -1,0 +1,2682 @@
+[
+	{
+		"slug": "fried-eggs-with-bacon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Яєчня з беконом"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "170г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "italian-frittata",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Італійська Фритата"
+			},
+			"description": {
+				"ua": "(томат, болгарський перець, моцарелла)"
+			},
+			"labels": [
+				{
+					"ua": "250г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "toast-with-poached-egg-and-avocado",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Тост з яйцем пашот та авокадо"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "275г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "homemade-syrnyky-with-sour-cream",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Домашні сирники зі сметаною"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "200г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "oatmeal-with-milk-and-seasonal-fruits",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Вівсяна каша на молоці із сезонними фруктами"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "270г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "chicken-broth-with-noodles",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Курячий бульйон з локшиною"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "solyanka-with-hunter-sausages",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Солянка з мисливськими ковбасками"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "okroshka-with-ayran",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Окрошка на айрані"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "caesar-salad-with-chicken",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Цезар з куркою"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "250г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "greek-salad",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Грецький"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "250г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "salad-with-prosciutto-and-eggplant-with-walnut-sauce",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Салат з прошутто та баклажаном з горіховим соусом"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "mixed-salad-with-seasonal-vegetables",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Мішаний салат із сезонної городини"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "250г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "spicy-mussels-in-sweet-and-sour-sauce",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пікантні мідії в кисло-солодкому соусі"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "200г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "beer-board",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пивна дошка"
+			},
+			"description": {
+				"ua": "(бастурма, копчені реберця, сиров’ялені ковбаски, сир косичка)"
+			},
+			"labels": [
+				{
+					"ua": "400г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "onion-rings",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Цибулеві кільця"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "200г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "fried-smelt",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Корюшка фрі"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "chicken-nuggets",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Курячі нагетси"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "8шт"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "chicken-wings-in-sweet-and-sour-sauce",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Курячі крильця в кисло-солодкому соусі"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "500г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "french-fries",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Картопля фрі"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "150г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "rustic-potatoes",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Картопля по-селянськи"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "150г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "fresh-lard-with-garlic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Свіже сало з часничком"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "150г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "tiger-prawns-langoustines",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Креветки тигрові (лангустини)"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "250г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "boiled-crayfish",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Варені раки"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "500г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "fried-fish",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Рибка фрі"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "pasta-carbonara",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Паста Карбонара"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "pasta-aglio-e-olio",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Паста Аglio e olio"
+			},
+			"description": {
+				"ua": "(часник, перець чилі, пармезан)"
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "tagliatelle-pasta-frutti-di-mare",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Паста тальятелле Frutti di Mare"
+			},
+			"description": {
+				"ua": "(морепродукти, томат чері, вершки)"
+			},
+			"labels": [
+				{
+					"ua": "300г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "chicken-burger-on-a-black-bun-with-french-fries",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Бургер з курячою котлетою в чорній булочці та картопля фрі"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "400г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "beef-burger-on-a-brioche-bun-with-french-fries",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Бургер з яловичою котлетою в булочці бріош та картопля фрі"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "400г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "sumy-style-catfish",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сом по-сумськи"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "100г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "chicken-shashlik",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Шашлик курячий"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "100г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "pork-shashlik",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Шашлик зі свинини"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "100г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "grilled-sausages",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Ковбаски гриль"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "250г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "melt-in-your-mouth-pork-ribs",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Реберця зі свинини, що тануть у роті"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "100г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "lavash-with-suluguni-cheese",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Лаваш з сиром сулугуні"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "200г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "grilled-vegetables",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Овочі гриль"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "400г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "margherita-pizza",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Піца Маргарита"
+			},
+			"description": {
+				"ua": "(соус томатний, моцарелла, томат, базилік)"
+			},
+			"labels": [
+				{
+					"ua": "450г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "pepperoni-pizza",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Піца Папероні"
+			},
+			"description": {
+				"ua": "(соус томатний, моцарелла, папероні, маслини, перець гострий, сир пармезан)"
+			},
+			"labels": [
+				{
+					"ua": "450г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "five-cheese-pizza",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Піца 5 сирів"
+			},
+			"description": {
+				"ua": "(соус вершковий, сир ДорБлю, чедер, фета, пармезан, моцарелла)"
+			},
+			"labels": [
+				{
+					"ua": "450г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "hawaiian-pizza",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Піца Гавайська"
+			},
+			"description": {
+				"ua": "(соус вершковий, моцарелла, куряче філе, ананас, маслини, кукурудза)"
+			},
+			"labels": [
+				{
+					"ua": "450г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "inferno-pizza",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Піца Інферно"
+			},
+			"description": {
+				"ua": "(соус томатний, моцарелла, салямі Чорізо, свинина печена, халапеньйо, гриби, пармезан, базилік, соус гострий)"
+			},
+			"labels": [
+				{
+					"ua": "450г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bubbles-pizza",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Піца Bubbles"
+			},
+			"description": {
+				"ua": "(шоколадна паста, банан, сезонні ягоди)"
+			},
+			"labels": [
+				{
+					"ua": "450г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "chocolate-temptation-in-smoky-embraces",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Шоколадна спокуса в димних обіймах"
+			},
+			"description": {
+				"ua": "(шоколадний фондан з морозивом)"
+			},
+			"labels": [
+				{
+					"ua": "160г"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "juice-assortment",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сік в асортименті"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0,25л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "fresh-juice-assortment",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Фреш в асортименті"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0,25л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "espresso",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Еспресо"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "americano",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Американо"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "120мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "americano-with-milk",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Американо з молоком"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "175мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "cappuccino",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Капучино"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "350мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "latte",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Лате"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "350мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bumblebee",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Джміль"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "400мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "iced-latte",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Ice лате"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "400мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "plant-milk",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Рослинне молоко"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "150мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "syrup",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сироп"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "10мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "assorted",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "В асортименті"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "400мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "hoegaarden",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Hoegaarden"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0.3л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "hoegaarden-2",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Hoegaarden"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0.5л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "stella-artois",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Stella Artois"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0.3л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "stella-artois-2",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Stella Artois"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0.5л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "khmelnytske",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Хмельницьке"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0.5л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "prosecco",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Prosecco"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "1 келих"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "tullamore-d-e-w",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Tullamore D.E.W."
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jack-daniels",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Jack Daniel’s"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jack-daniels-honey",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Jack Daniel`s Honey"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "hankey-bannister",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Hankey Bannister"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "chivas-regal-12",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Chivas Regal 12*"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jim-beam",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Jim Beam"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "makers-mark",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Maker’s Mark"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "four-roses",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Four Roses"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "metaxa-5",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Metaxa 5*"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "st-remy-vsop",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "St-Remy VSOP"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "aznauri-5",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Aznauri 5*"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "torres-5",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Torres 5*"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "nemiroff-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Nemiroff класична"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "nemiroff-cranberry",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Nemiroff журавлина"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "grey-goose",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Грей гусь"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "finlandia",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Finlandia"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jose-cuervo-especial-silver",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Jose Cuervo Especial Silver"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jose-cuervo-traditional",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Jose Cuervo Traditional"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bombay-sapphire",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bombay Sapphire"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "mr-higgins-london-dry",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Mr. Higgins London Dry"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bacardi-carta-blanca",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bacardi Carta Blanca"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bacardi-spiced",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bacardi Spiced"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bacardi-carta-negra",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bacardi Carta Negra"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "gamondi-bianco",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Gamondi Bianco"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "martini-fiero",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Martini Fiero"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "martini-bitter-riserva",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Martini Bitter Riserva"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "gamondi-rossi",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Gamondi Rossi"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jagermeister",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Jagermeister"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "baileys",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Baileys"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "sambuca-antica",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Sambuca Antica"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "gamondi-aperativo",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Gamondi Aperativo"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "50мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "de-haan-altes-el-convertido",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "De Haan Altes El Convertido"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "0.5л"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "fragolino",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Fragolino"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "келих"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "brut",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Brut"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "келих"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "daiquiri",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Дайкірі"
+			},
+			"description": {
+				"ua": "(ром білий, фреш, сироп цукровий)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "pomegranate-daiquiri",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Дайкірі гранатове"
+			},
+			"description": {
+				"ua": "(ром білий, Grenadine, фреш лимона, білок)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "margarita",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Маргарита"
+			},
+			"description": {
+				"ua": "(текіла, Cointreau, фреш лимонний)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "pink-passion",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Рожева пристрасть"
+			},
+			"description": {
+				"ua": "(джин, Grenadine, сік ананасовий)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "spirit-of-panama",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Дух панами"
+			},
+			"description": {
+				"ua": "(джин, сироп маракуйя, фреш лаймовий, сік ананасовий)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jasmine",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Jasmine"
+			},
+			"description": {
+				"ua": "(джин, Martini Bitter Riserva, Cointreau, фреш лимона)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "glover-club",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Glover Club"
+			},
+			"description": {
+				"ua": "(джин, вермут, малинове пюре, фреш лимона)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jagerbull",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Єгербул"
+			},
+			"description": {
+				"ua": "(Jagermeister, Red Bull)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "whiskey-cola",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Віскі кола"
+			},
+			"description": {
+				"ua": "(віскі, кола)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "brandy-cola",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Бренді кола"
+			},
+			"description": {
+				"ua": "(бренді, кола)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "gin-and-tonic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Джин тонік"
+			},
+			"description": {
+				"ua": "(джин, тонік)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "vodka-red-bull",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Горілка Red Bull"
+			},
+			"description": {
+				"ua": "(горілка, Red Bull)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bacardi-spiced-cola",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bacardi Spiced Cola"
+			},
+			"description": {
+				"ua": "(ром, кола)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "gin-garden",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Gin Garden"
+			},
+			"description": {
+				"ua": "(джин, сироп бузини, яблучний сік, фреш лимона)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "negroni",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Негроні"
+			},
+			"description": {
+				"ua": "(джин, Martini Bitter Riserva, Martini Rosso)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "boulevardier",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Бульвардьє"
+			},
+			"description": {
+				"ua": "(Four Roses, Martini Bitter Riserva, Martini Rosso)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "whiskey-sour",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Віскі sour"
+			},
+			"description": {
+				"ua": "(білок, Four Roses, фреш лимона, цукровий сироп)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "passion-fruit-fresh-tequila",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Маракуя – фреш – текіла"
+			},
+			"description": {
+				"ua": "(маракуйя, фреш, текіла)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "uncle-vasya",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Дядя Вася"
+			},
+			"description": {
+				"ua": "(Grenadine, фреш, горілка)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "b-52",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Б-52"
+			},
+			"description": {
+				"ua": "(Kahlua, Baileys, Cointreau)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "green-mexican",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Зелений мексиканець"
+			},
+			"description": {
+				"ua": "(Pisang, фреш, текіла)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bubbles",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bubbles"
+			},
+			"description": {
+				"ua": "(сироп полуничний, фреш, джин ягідний)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "carmelita",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Кармеліта"
+			},
+			"description": {
+				"ua": "(ром, вишневий сироп, фреш лимона)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "gamondi-spritz",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Gamondi Spritz"
+			},
+			"description": {
+				"ua": "(Aperol, Prosecco, апельсин)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bubbles-pink",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bubbles Pink"
+			},
+			"description": {
+				"ua": "(Captain Morgan Spiced Black, персиковий лікер, Blue Curacao, Малібу, гренадін, ананасовий сік, фреш лимона)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "tom-collins",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Tom Colins"
+			},
+			"description": {
+				"ua": "(джин, фреш лимона, цукровий сироп, содова)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "fiero-tonic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Fiero тонік"
+			},
+			"description": {
+				"ua": "(Martini Fiero, тонік)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "long-tropic-bubbles",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Long tropic Bubbles"
+			},
+			"description": {
+				"ua": "(джин, ром, текіла, Kahlua, Cointreau, сік ананасовий)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "mai-tai",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Май Тай"
+			},
+			"description": {
+				"ua": "(ром білий, ром чорний, ром золотий, Cointreau, сироп мигдальний, фреш лимонний)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "mojito",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Мохіто"
+			},
+			"description": {
+				"ua": "(ром, фреш лимонний, сироп цукровий, содова вода, м’ята, лайм)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "tequila-sunrise",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Текіла sunrise"
+			},
+			"description": {
+				"ua": "(текіла, сік апельсиновий, Grenadine)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "bubbles-cocktail",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Bubbles cocktail"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "paloma-jabuticaba",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Paloma-Жабутікаба"
+			},
+			"description": {
+				"ua": "(текіла, пюре жабутікаба, фреш лимона, сироп бузини, содова вода)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "big-boss",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Big Boss"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "mojito-2",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Мохіто"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "jabuticaba",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Жабутікаба"
+			},
+			"description": {
+				"ua": "(фреш лимона, пюре жабутікаби, сироп Бабл гам, содова вода)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "raspberry-lychee-lemonade",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Лимонад малина-лічі"
+			},
+			"description": {
+				"ua": "(фреш лимона, пюре малини, сироп лічі, содова вода)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "elderflower-lemonade",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Бузиновий лимонад"
+			},
+			"description": {
+				"ua": "(сироп бузини, м’ята, фреш лимона, содова вода)"
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	},
+	{
+		"slug": "milkshake",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Milkshake"
+			},
+			"description": {
+				"ua": ""
+			},
+			"labels": [
+				{
+					"ua": "30мл"
+				}
+			],
+			"fullDescription": {
+				"ua": ""
+			}
+		}
+	}
+]

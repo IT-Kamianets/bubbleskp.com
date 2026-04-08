@@ -1,0 +1,77 @@
+﻿import { Translate } from 'wacom';
+
+export const et = {
+	'Go to homepage': 'Mine avalehele',
+	'Switch to dark mode': 'Lülitu tumedale režiimile',
+	'Switch to light mode': 'Lülitu heledale režiimile',
+	'Open language menu': 'Ava keelemenüü',
+	'Switch language to': 'Vaheta keel keeleks',
+	Socials: 'Sotsiaalmeedia',
+	'Stay connected with Bubbles KP': 'Püsige ühenduses Bubbles KPga',
+	'Find us on Instagram and open our location in Google Maps.':
+		'Leia meid Instagramist ja ava meie asukoht Google Mapsis.',
+	Instagram: 'Instagram',
+	'Follow our latest updates': 'Jälgi meie uusimaid uudiseid',
+	'See new photos, announcements, and stories from the restaurant.':
+		'Vaata uusi fotosid, teateid ja lugusid restoranist.',
+	'Open Instagram': 'Ava Instagram',
+	Maps: 'Kaardid',
+	'Get directions to the restaurant': 'Juhised restorani',
+	'Open the map, check the route, and share the location with friends.':
+		'Ava kaart, kontrolli marsruuti ja jaga asukohta sõpradega.',
+	'Open Google Maps': 'Ava Google Maps',
+	'Open Bubbles KP Instagram page': 'Ava Bubbles KP Instagrami leht',
+	'Open Bubbles KP location in Google Maps': 'Ava Bubbles KP asukoht Google Mapsis',
+	Quests: 'Quests',
+	'There are currently no quests': 'There are currently no quests',
+	'Check back later for new activities and special offers.':
+		'Check back later for new activities and special offers.',
+	Gallery: 'Galerii',
+	'The gallery is currently empty': 'Galerii on praegu tühi',
+	'Check back later to see photos from Bubbles KP.':
+		'Tule hiljem tagasi, et näha Bubbles KP fotosid.',
+	Navigation: 'Navigeerimine',
+	'Quick links': 'Kiirlingid',
+	'Open the main sections of the website from one place.':
+		'Ava veebisaidi põhiosad ühest kohast.',
+	Sales: 'Pakkumised',
+	Articles: 'Artiklid',
+	Reviews: 'Arvustused',
+	Events: 'Sündmused',
+	Jobs: 'Töökohad',
+	'No articles yet': 'Artikleid veel ei ole',
+	'New posts are on the way': 'Uued postitused on teel',
+	'No events at the moment': 'Praegu üritusi ei ole',
+	'New events are on the way': 'Uued üritused on tulekul',
+	'No active promotions at the moment': 'Praegu pole aktiivseid pakkumisi',
+	Favorites: 'Lemmikud',
+	'No saved dishes': 'Salvestatud roogasid pole',
+	'Add items from the menu to favorites, and they will appear here.':
+		'Lisa menüüst road lemmikutesse ja need ilmuvad siia.',
+	'Remove from favorites': 'Eemalda lemmikutest',
+	'Add to favorites': 'Lisa lemmikutesse',
+	'Chef picks': 'Koka valikud',
+	'Ask restaurant staff': 'Küsige restoranipersonalilt',
+	'Cooking time': 'Valmistamisaeg',
+	'Pairs well with': 'Sobib hästi koos',
+	'Dish details': 'Roa üksikasjad',
+	'Ask restaurant staff for portion details': 'Küsige restoranipersonalilt portsjoni kohta',
+	'No allergen information available': 'Allergeeniteave puudub',
+	'Ask for price': 'Küsi hinda',
+	'Calories': 'Kalorid',
+	'About dish': 'Roa kohta',
+	'Menu section': 'Menüü jaotis',
+	'Portion': 'Portsjon',
+	'Allergens': 'Allergeenid',
+	'Browse full menu': 'Vaata kogu menüüd',
+	Unavailable: 'Pole saadaval',
+} as const;
+
+export type EtTranslationKey = keyof typeof et;
+
+export const etTranslates: Translate[] = Object.entries(et).map(([sourceText, text]) => ({
+	sourceText,
+	text,
+}));
+
+

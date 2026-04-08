@@ -1,0 +1,77 @@
+﻿import { Translate } from 'wacom';
+
+export const lt = {
+	'Go to homepage': 'Eiti į pagrindinį puslapį',
+	'Switch to dark mode': 'Perjungti į tamsųjį režimą',
+	'Switch to light mode': 'Perjungti į šviesųjį režimą',
+	'Open language menu': 'Atidaryti kalbų meniu',
+	'Switch language to': 'Perjungti kalbą į',
+	Socials: 'Socialiniai tinklai',
+	'Stay connected with Bubbles KP': 'Likite susiję su Bubbles KP',
+	'Find us on Instagram and open our location in Google Maps.':
+		'Raskite mus Instagrame ir atidarykite mūsų vietą Google Maps.',
+	Instagram: 'Instagram',
+	'Follow our latest updates': 'Sekite naujausias mūsų žinias',
+	'See new photos, announcements, and stories from the restaurant.':
+		'Peržiūrėkite naujas nuotraukas, pranešimus ir istorijas iš restorano.',
+	'Open Instagram': 'Atidaryti Instagram',
+	Maps: 'Žemėlapiai',
+	'Get directions to the restaurant': 'Gauti nuorodas į restoraną',
+	'Open the map, check the route, and share the location with friends.':
+		'Atidarykite žemėlapį, patikrinkite maršrutą ir pasidalykite vieta su draugais.',
+	'Open Google Maps': 'Atidaryti Google Maps',
+	'Open Bubbles KP Instagram page': 'Atidaryti Bubbles KP Instagram puslapį',
+	'Open Bubbles KP location in Google Maps': 'Atidaryti Bubbles KP vietą Google Maps',
+	Quests: 'Quests',
+	'There are currently no quests': 'There are currently no quests',
+	'Check back later for new activities and special offers.':
+		'Check back later for new activities and special offers.',
+	Gallery: 'Galerija',
+	'The gallery is currently empty': 'Galerija šiuo metu tuščia',
+	'Check back later to see photos from Bubbles KP.':
+		'Užsukite vėliau ir pamatysite Bubbles KP nuotraukas.',
+	Navigation: 'Navigacija',
+	'Quick links': 'Greitos nuorodos',
+	'Open the main sections of the website from one place.':
+		'Atidarykite pagrindines svetainės skiltis iš vienos vietos.',
+	Sales: 'Akcijos',
+	Articles: 'Straipsniai',
+	Reviews: 'Atsiliepimai',
+	Events: 'Renginiai',
+	Jobs: 'Darbai',
+	'No articles yet': 'Straipsnių dar nėra',
+	'New posts are on the way': 'Nauji įrašai jau pakeliui',
+	'No events at the moment': 'Šiuo metu renginių nėra',
+	'New events are on the way': 'Nauji renginiai jau pakeliui',
+	'No active promotions at the moment': 'Šiuo metu nėra aktyvių akcijų',
+	Favorites: 'Mėgstamiausi',
+	'No saved dishes': 'Nėra išsaugotų patiekalų',
+	'Add items from the menu to favorites, and they will appear here.':
+		'Pridėkite patiekalus iš meniu į mėgstamiausius ir jie bus rodomi čia.',
+	'Remove from favorites': 'Pašalinti iš mėgstamiausių',
+	'Add to favorites': 'Pridėti į mėgstamiausius',
+	'Chef picks': 'Šefo pasirinkimai',
+	'Ask restaurant staff': 'Kreipkitės į restorano personalą',
+	'Cooking time': 'Gaminimo laikas',
+	'Pairs well with': 'Tinka su',
+	'Dish details': 'Patiekalo informacija',
+	'Ask restaurant staff for portion details': 'Dėl porcijos informacijos kreipkitės į restorano personalą',
+	'No allergen information available': 'Informacijos apie alergenus nėra',
+	'Ask for price': 'Teiraukitės kainos',
+	'Calories': 'Kalorijos',
+	'About dish': 'Apie patiekalą',
+	'Menu section': 'Meniu skyrius',
+	'Portion': 'Porcija',
+	'Allergens': 'Alergenai',
+	'Browse full menu': 'Peržiūrėti visą meniu',
+	Unavailable: 'Nėra',
+} as const;
+
+export type LtTranslationKey = keyof typeof lt;
+
+export const ltTranslates: Translate[] = Object.entries(lt).map(([sourceText, text]) => ({
+	sourceText,
+	text,
+}));
+
+

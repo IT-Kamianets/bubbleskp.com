@@ -1,0 +1,77 @@
+﻿import { Translate } from 'wacom';
+
+export const de = {
+	'Go to homepage': 'Zur Startseite',
+	'Switch to dark mode': 'In den Dunkelmodus wechseln',
+	'Switch to light mode': 'In den Hellmodus wechseln',
+	'Open language menu': 'Sprachmenü öffnen',
+	'Switch language to': 'Sprache umstellen auf',
+	Socials: 'Soziale Netzwerke',
+	'Stay connected with Bubbles KP': 'Bleiben Sie mit Bubbles KP verbunden',
+	'Find us on Instagram and open our location in Google Maps.':
+		'Finden Sie uns auf Instagram und öffnen Sie unseren Standort in Google Maps.',
+	Instagram: 'Instagram',
+	'Follow our latest updates': 'Folgen Sie unseren neuesten Updates',
+	'See new photos, announcements, and stories from the restaurant.':
+		'Sehen Sie neue Fotos, Ankündigungen und Geschichten aus dem Restaurant.',
+	'Open Instagram': 'Instagram öffnen',
+	Maps: 'Karten',
+	'Get directions to the restaurant': 'Wegbeschreibung zum Restaurant',
+	'Open the map, check the route, and share the location with friends.':
+		'Öffnen Sie die Karte, prüfen Sie die Route und teilen Sie den Standort mit Freunden.',
+	'Open Google Maps': 'Google Maps öffnen',
+	'Open Bubbles KP Instagram page': 'Instagram-Seite von Bubbles KP öffnen',
+	'Open Bubbles KP location in Google Maps': 'Standort von Bubbles KP in Google Maps öffnen',
+	Quests: 'Quests',
+	'There are currently no quests': 'There are currently no quests',
+	'Check back later for new activities and special offers.':
+		'Check back later for new activities and special offers.',
+	Gallery: 'Galerie',
+	'The gallery is currently empty': 'Die Galerie ist derzeit leer',
+	'Check back later to see photos from Bubbles KP.':
+		'Schauen Sie später wieder vorbei, um Fotos von Bubbles KP zu sehen.',
+	Navigation: 'Navigation',
+	'Quick links': 'Schnellzugriffe',
+	'Open the main sections of the website from one place.':
+		'Öffnen Sie die wichtigsten Bereiche der Website von einem Ort aus.',
+	Sales: 'Angebote',
+	Articles: 'Artikel',
+	Reviews: 'Bewertungen',
+	Events: 'Veranstaltungen',
+	Jobs: 'Jobs',
+	'No articles yet': 'Noch keine Artikel',
+	'New posts are on the way': 'Neue Beiträge sind unterwegs',
+	'No events at the moment': 'Derzeit gibt es keine Veranstaltungen',
+	'New events are on the way': 'Neue Veranstaltungen sind unterwegs',
+	'No active promotions at the moment': 'Derzeit gibt es keine aktiven Aktionen',
+	Favorites: 'Favoriten',
+	'No saved dishes': 'Keine gespeicherten Gerichte',
+	'Add items from the menu to favorites, and they will appear here.':
+		'Fügen Sie Gerichte aus der Speisekarte zu den Favoriten hinzu, dann erscheinen sie hier.',
+	'Remove from favorites': 'Aus Favoriten entfernen',
+	'Add to favorites': 'Zu Favoriten hinzufügen',
+	'Chef picks': 'Auswahl des Küchenchefs',
+	'Ask restaurant staff': 'Fragen Sie das Restaurantpersonal',
+	'Cooking time': 'Zubereitungszeit',
+	'Pairs well with': 'Passt gut zu',
+	'Dish details': 'Gerichtdetails',
+	'Ask restaurant staff for portion details': 'Fragen Sie das Restaurantpersonal nach Portionsdetails',
+	'No allergen information available': 'Keine Allergeninformationen verfügbar',
+	'Ask for price': 'Preis auf Anfrage',
+	'Calories': 'Kalorien',
+	'About dish': 'Über das Gericht',
+	'Menu section': 'Menükategorie',
+	'Portion': 'Portion',
+	'Allergens': 'Allergene',
+	'Browse full menu': 'Gesamte Speisekarte ansehen',
+	Unavailable: 'Nicht verfügbar',
+} as const;
+
+export type DeTranslationKey = keyof typeof de;
+
+export const deTranslates: Translate[] = Object.entries(de).map(([sourceText, text]) => ({
+	sourceText,
+	text,
+}));
+
+

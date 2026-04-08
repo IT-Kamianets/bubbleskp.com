@@ -1,0 +1,312 @@
+[
+	{
+		"slug": "breakfasts",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Сніданки"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "soups",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Перші страви"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "salads",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Салати"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "appetizers",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Закуски"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "pasta",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Паста"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "burgers",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Бургери"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "grill",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Гриль"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "pizza",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Піца"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "desserts",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Десерти"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "drinks",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Напої"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "coffee",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Кава"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "tea",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Чай"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "draft-beer",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Пиво розливне"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "sparkling-wine-draft",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Ігристе вино на розлив"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "whiskey",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Віскі"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "bourbon",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Бурбон"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "brandy",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Бренді"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "vodka",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Горілка"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "tequila",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Текіла"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "gin",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Джин"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "rum",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Ром"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "vermouth",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Вермути"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "liqueurs",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Лікери"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "bottled-wine",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Вино пляшкове"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "sparkling-wine",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Вино ігристе"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "martini-cocktails",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Martini cocktails"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "highball-mixes",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Highball mixes"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "on-the-rocks",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "ON THE ROCKS"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "shots",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "SHOTS"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "long-cocktails",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Long Cocktail"
+			},
+			"description": {}
+		}
+	},
+	{
+		"slug": "non-alcoholic-cocktails",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Безалкогольні коктейлі"
+			},
+			"description": {}
+		}
+	}
+]

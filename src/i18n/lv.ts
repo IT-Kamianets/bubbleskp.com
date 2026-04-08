@@ -1,0 +1,77 @@
+﻿import { Translate } from 'wacom';
+
+export const lv = {
+	'Go to homepage': 'Doties uz sākumlapu',
+	'Switch to dark mode': 'Pārslēgt uz tumšo režīmu',
+	'Switch to light mode': 'Pārslēgt uz gaišo režīmu',
+	'Open language menu': 'Atvērt valodu izvēlni',
+	'Switch language to': 'Pārslēgt valodu uz',
+	Socials: 'Sociālie tīkli',
+	'Stay connected with Bubbles KP': 'Palieciet saziņā ar Bubbles KP',
+	'Find us on Instagram and open our location in Google Maps.':
+		'Atrodiet mūs Instagram un atveriet mūsu atrašanās vietu Google Maps.',
+	Instagram: 'Instagram',
+	'Follow our latest updates': 'Sekojiet mūsu jaunākajiem jaunumiem',
+	'See new photos, announcements, and stories from the restaurant.':
+		'Apskatiet jaunas fotogrāfijas, paziņojumus un stāstus no restorāna.',
+	'Open Instagram': 'Atvērt Instagram',
+	Maps: 'Kartes',
+	'Get directions to the restaurant': 'Saņemt norādes uz restorānu',
+	'Open the map, check the route, and share the location with friends.':
+		'Atveriet karti, pārbaudiet maršrutu un kopīgojiet atrašanās vietu ar draugiem.',
+	'Open Google Maps': 'Atvērt Google Maps',
+	'Open Bubbles KP Instagram page': 'Atvērt Bubbles KP Instagram lapu',
+	'Open Bubbles KP location in Google Maps': 'Atvērt Bubbles KP atrašanās vietu Google Maps',
+	Quests: 'Quests',
+	'There are currently no quests': 'There are currently no quests',
+	'Check back later for new activities and special offers.':
+		'Check back later for new activities and special offers.',
+	Gallery: 'Galerija',
+	'The gallery is currently empty': 'Galerija pašlaik ir tukša',
+	'Check back later to see photos from Bubbles KP.':
+		'Atgriezieties vēlāk, lai skatītu Bubbles KP fotogrāfijas.',
+	Navigation: 'Navigācija',
+	'Quick links': 'Ātrās saites',
+	'Open the main sections of the website from one place.':
+		'Atveriet galvenās vietnes sadaļas no vienas vietas.',
+	Sales: 'Piedāvājumi',
+	Articles: 'Raksti',
+	Reviews: 'Atsauksmes',
+	Events: 'Pasākumi',
+	Jobs: 'Darbs',
+	'No articles yet': 'Rakstu vēl nav',
+	'New posts are on the way': 'Jauni ieraksti ir ceļā',
+	'No events at the moment': 'Pašlaik nav pasākumu',
+	'New events are on the way': 'Jauni pasākumi jau ir ceļā',
+	'No active promotions at the moment': 'Šobrīd nav aktīvu akciju',
+	Favorites: 'Izlase',
+	'No saved dishes': 'Nav saglabātu ēdienu',
+	'Add items from the menu to favorites, and they will appear here.':
+		'Pievienojiet ēdienus no ēdienkartes izlasei, un tie parādīsies šeit.',
+	'Remove from favorites': 'Noņemt no izlases',
+	'Add to favorites': 'Pievienot izlasei',
+	'Chef picks': 'Šefpavāra izvēle',
+	'Ask restaurant staff': 'Jautājiet restorāna personālam',
+	'Cooking time': 'Gatavošanas laiks',
+	'Pairs well with': 'Labi sader ar',
+	'Dish details': 'Ēdiena informācija',
+	'Ask restaurant staff for portion details': 'Jautājiet restorāna personālam par porcijas informāciju',
+	'No allergen information available': 'Nav pieejama informācija par alergēniem',
+	'Ask for price': 'Jautājiet cenu',
+	'Calories': 'Kalorijas',
+	'About dish': 'Par ēdienu',
+	'Menu section': 'Ēdienkartes sadaļa',
+	'Portion': 'Porcija',
+	'Allergens': 'Alergēni',
+	'Browse full menu': 'Skatīt visu ēdienkarti',
+	Unavailable: 'Nav pieejams',
+} as const;
+
+export type LvTranslationKey = keyof typeof lv;
+
+export const lvTranslates: Translate[] = Object.entries(lv).map(([sourceText, text]) => ({
+	sourceText,
+	text,
+}));
+
+
