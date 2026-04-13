@@ -226,7 +226,7 @@ Translation bootstrap starts in:
 src/app/app.config.ts
 ```
 
-The app uses the `wacom` translation stack:
+The app uses the `@wawjs/ngx-translate` translation stack:
 
 - `provideTranslate(...)` registers the default language from `src/i18n/index.ts`
 - `LanguageService` switches languages with `TranslateService.setMany(...)`

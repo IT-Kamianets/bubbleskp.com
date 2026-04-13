@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const sl = {
 	'Go to homepage': 'Pojdi na domačo stran',
@@ -55,14 +55,15 @@ export const sl = {
 	'Cooking time': 'Čas priprave',
 	'Pairs well with': 'Dobro se poda k',
 	'Dish details': 'Podrobnosti o jedi',
-	'Ask restaurant staff for portion details': 'Vprašajte osebje restavracije za podrobnosti o porciji',
+	'Ask restaurant staff for portion details':
+		'Vprašajte osebje restavracije za podrobnosti o porciji',
 	'No allergen information available': 'Podatki o alergenih niso na voljo',
 	'Ask for price': 'Vprašajte za ceno',
-	'Calories': 'Kalorije',
+	Calories: 'Kalorije',
 	'About dish': 'O jedi',
 	'Menu section': 'Razdelek menija',
-	'Portion': 'Porcija',
-	'Allergens': 'Alergeni',
+	Portion: 'Porcija',
+	Allergens: 'Alergeni',
 	'Browse full menu': 'Oglejte si celoten meni',
 	Unavailable: 'Ni na voljo',
 } as const;
@@ -73,5 +74,3 @@ export const slTranslates: Translate[] = Object.entries(sl).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const mt = {
 	'Go to homepage': 'Mur fil-paġna ewlenija',
@@ -53,16 +53,17 @@ export const mt = {
 	'Chef picks': 'L-għażliet taċ-chef',
 	'Ask restaurant staff': 'Staqsi lill-persunal tar-ristorant',
 	'Cooking time': 'Ħin tat-tisjir',
-	'Pairs well with': 'Jaqbel tajjeb ma\'',
+	'Pairs well with': "Jaqbel tajjeb ma'",
 	'Dish details': 'Dettalji tal-platt',
-	'Ask restaurant staff for portion details': 'Staqsi lill-persunal tar-ristorant għad-dettalji tal-porzjon',
-	'No allergen information available': 'M\'hemmx informazzjoni disponibbli dwar l-allerġeni',
+	'Ask restaurant staff for portion details':
+		'Staqsi lill-persunal tar-ristorant għad-dettalji tal-porzjon',
+	'No allergen information available': "M'hemmx informazzjoni disponibbli dwar l-allerġeni",
 	'Ask for price': 'Staqsi għall-prezz',
-	'Calories': 'Kaloriji',
+	Calories: 'Kaloriji',
 	'About dish': 'Dwar il-platt',
 	'Menu section': 'Taqsima tal-menu',
-	'Portion': 'Porzjon',
-	'Allergens': 'Allerġeni',
+	Portion: 'Porzjon',
+	Allergens: 'Allerġeni',
 	'Browse full menu': 'Ara l-menu kollu',
 	Unavailable: 'Mhux disponibbli',
 } as const;
@@ -73,5 +74,3 @@ export const mtTranslates: Translate[] = Object.entries(mt).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

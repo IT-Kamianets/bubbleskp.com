@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const ua = {
 	'Go to homepage': 'Перейти на головну сторінку',
@@ -21,8 +21,7 @@ export const ua = {
 		'Відкрийте мапу, перевірте маршрут і поділіться локацією з друзями.',
 	'Open Google Maps': 'Відкрити Google Maps',
 	'Open Bubbles KP Instagram page': 'Відкрити Instagram сторінку Bubbles KP',
-	'Open Bubbles KP location in Google Maps':
-		'Відкрити локацію Bubbles KP в Google Maps',
+	'Open Bubbles KP location in Google Maps': 'Відкрити локацію Bubbles KP в Google Maps',
 	Quests: 'Квести',
 	'There are currently no quests': 'Наразі квестів немає',
 	'Check back later for new activities and special offers.':
@@ -63,11 +62,11 @@ export const ua = {
 	'Ask restaurant staff for portion details': 'Уточніть порцію у персоналу ресторану',
 	'No allergen information available': 'Немає інформації про алергени',
 	'Ask for price': 'Уточніть ціну',
-	'Calories': 'Калорійність',
+	Calories: 'Калорійність',
 	'About dish': 'Про страву',
 	'Menu section': 'Розділ меню',
-	'Portion': 'Порція',
-	'Allergens': 'Алергени',
+	Portion: 'Порція',
+	Allergens: 'Алергени',
 	'Browse full menu': 'Переглянути все меню',
 	Unavailable: 'Немає',
 } as const;
@@ -78,5 +77,3 @@ export const uaTranslates: Translate[] = Object.entries(ua).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

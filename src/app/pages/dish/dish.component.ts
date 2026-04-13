@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { TranslatePipe, TranslateService } from 'wacom';
+import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
 import { LanguageService } from '../../feature/language/language.service';
 import { FavoritesService } from '../../feature/menu/favorites.service';
 import {
@@ -60,14 +60,9 @@ export class DishComponent {
 	protected readonly dish = computed(() => {
 		const language = this._languageService.language();
 		const slug = this._slug().get('slug');
-		const entry = slug ? findRawMenuItemBySlug(slug) ?? _fallbackEntry : _fallbackEntry;
+		const entry = slug ? (findRawMenuItemBySlug(slug) ?? _fallbackEntry) : _fallbackEntry;
 
-		return _buildDishViewModel(
-			entry.section,
-			entry.item,
-			language,
-			this._translateService,
-		);
+		return _buildDishViewModel(entry.section, entry.item, language, this._translateService);
 	});
 	protected readonly isFavorite = computed(() =>
 		this._favoritesService.isFavorite(this.dish().id),
@@ -157,9 +152,10 @@ function _buildSuggestions(
 		.map((slug) => section.items.find((item) => item.slug === slug))
 		.filter((item): item is RawMenuItem => Boolean(item));
 
-	return (suggestedItems.length
-		? suggestedItems
-		: section.items.filter((item) => item.slug !== currentItem.slug)
+	return (
+		suggestedItems.length
+			? suggestedItems
+			: section.items.filter((item) => item.slug !== currentItem.slug)
 	)
 		.slice(0, 3)
 		.map((item) => ({

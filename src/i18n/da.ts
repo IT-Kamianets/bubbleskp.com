@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const da = {
 	'Go to homepage': 'Gå til forsiden',
@@ -58,11 +58,11 @@ export const da = {
 	'Ask restaurant staff for portion details': 'Spørg restaurantpersonalet om portionsdetaljer',
 	'No allergen information available': 'Ingen allergenoplysninger tilgængelige',
 	'Ask for price': 'Spørg om prisen',
-	'Calories': 'Kalorier',
+	Calories: 'Kalorier',
 	'About dish': 'Om retten',
 	'Menu section': 'Menusektion',
-	'Portion': 'Portion',
-	'Allergens': 'Allergener',
+	Portion: 'Portion',
+	Allergens: 'Allergener',
 	'Browse full menu': 'Se hele menuen',
 	Unavailable: 'Udsolgt',
 } as const;
@@ -73,5 +73,3 @@ export const daTranslates: Translate[] = Object.entries(da).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const ga = {
 	'Go to homepage': 'Téigh go dtí an leathanach baile',
@@ -58,11 +58,11 @@ export const ga = {
 	'Ask restaurant staff for portion details': 'Iarr ar fhoireann na bialainne sonraí faoin chuid',
 	'No allergen information available': 'Níl eolas ar ailléirginí ar fáil',
 	'Ask for price': 'Iarr an praghas',
-	'Calories': 'Calraí',
+	Calories: 'Calraí',
 	'About dish': 'Maidir leis an mhias',
 	'Menu section': 'Rannóg an roghchláir',
-	'Portion': 'Cuid',
-	'Allergens': 'Ailléirginí',
+	Portion: 'Cuid',
+	Allergens: 'Ailléirginí',
 	'Browse full menu': 'Féach ar an roghchlár iomlán',
 	Unavailable: 'Níl ar fáil',
 } as const;
@@ -73,5 +73,3 @@ export const gaTranslates: Translate[] = Object.entries(ga).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

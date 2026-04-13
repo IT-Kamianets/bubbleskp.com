@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const ro = {
 	'Go to homepage': 'Mergi la pagina principală',
@@ -55,14 +55,15 @@ export const ro = {
 	'Cooking time': 'Timp de preparare',
 	'Pairs well with': 'Se potrivește bine cu',
 	'Dish details': 'Detalii despre preparat',
-	'Ask restaurant staff for portion details': 'Întrebați personalul restaurantului despre detaliile porției',
+	'Ask restaurant staff for portion details':
+		'Întrebați personalul restaurantului despre detaliile porției',
 	'No allergen information available': 'Nu sunt disponibile informații despre alergeni',
 	'Ask for price': 'Întrebați prețul',
-	'Calories': 'Calorii',
+	Calories: 'Calorii',
 	'About dish': 'Despre preparat',
 	'Menu section': 'Secțiunea meniului',
-	'Portion': 'Porție',
-	'Allergens': 'Alergeni',
+	Portion: 'Porție',
+	Allergens: 'Alergeni',
 	'Browse full menu': 'Vezi întregul meniu',
 	Unavailable: 'Indisponibil',
 } as const;
@@ -73,5 +74,3 @@ export const roTranslates: Translate[] = Object.entries(ro).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const lt = {
 	'Go to homepage': 'Eiti į pagrindinį puslapį',
@@ -55,14 +55,15 @@ export const lt = {
 	'Cooking time': 'Gaminimo laikas',
 	'Pairs well with': 'Tinka su',
 	'Dish details': 'Patiekalo informacija',
-	'Ask restaurant staff for portion details': 'Dėl porcijos informacijos kreipkitės į restorano personalą',
+	'Ask restaurant staff for portion details':
+		'Dėl porcijos informacijos kreipkitės į restorano personalą',
 	'No allergen information available': 'Informacijos apie alergenus nėra',
 	'Ask for price': 'Teiraukitės kainos',
-	'Calories': 'Kalorijos',
+	Calories: 'Kalorijos',
 	'About dish': 'Apie patiekalą',
 	'Menu section': 'Meniu skyrius',
-	'Portion': 'Porcija',
-	'Allergens': 'Alergenai',
+	Portion: 'Porcija',
+	Allergens: 'Alergenai',
 	'Browse full menu': 'Peržiūrėti visą meniu',
 	Unavailable: 'Nėra',
 } as const;
@@ -73,5 +74,3 @@ export const ltTranslates: Translate[] = Object.entries(lt).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

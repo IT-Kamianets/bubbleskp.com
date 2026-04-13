@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const lv = {
 	'Go to homepage': 'Doties uz sākumlapu',
@@ -55,14 +55,15 @@ export const lv = {
 	'Cooking time': 'Gatavošanas laiks',
 	'Pairs well with': 'Labi sader ar',
 	'Dish details': 'Ēdiena informācija',
-	'Ask restaurant staff for portion details': 'Jautājiet restorāna personālam par porcijas informāciju',
+	'Ask restaurant staff for portion details':
+		'Jautājiet restorāna personālam par porcijas informāciju',
 	'No allergen information available': 'Nav pieejama informācija par alergēniem',
 	'Ask for price': 'Jautājiet cenu',
-	'Calories': 'Kalorijas',
+	Calories: 'Kalorijas',
 	'About dish': 'Par ēdienu',
 	'Menu section': 'Ēdienkartes sadaļa',
-	'Portion': 'Porcija',
-	'Allergens': 'Alergēni',
+	Portion: 'Porcija',
+	Allergens: 'Alergēni',
 	'Browse full menu': 'Skatīt visu ēdienkarti',
 	Unavailable: 'Nav pieejams',
 } as const;
@@ -73,5 +74,3 @@ export const lvTranslates: Translate[] = Object.entries(lv).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

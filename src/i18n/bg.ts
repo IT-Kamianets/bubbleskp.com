@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const bg = {
 	'Go to homepage': 'Към началната страница',
@@ -55,14 +55,15 @@ export const bg = {
 	'Cooking time': 'Време за приготвяне',
 	'Pairs well with': 'Подхожда си с',
 	'Dish details': 'Детайли за ястието',
-	'Ask restaurant staff for portion details': 'Попитайте персонала на ресторанта за подробности за порцията',
+	'Ask restaurant staff for portion details':
+		'Попитайте персонала на ресторанта за подробности за порцията',
 	'No allergen information available': 'Няма налична информация за алергени',
 	'Ask for price': 'Попитайте за цена',
-	'Calories': 'Калории',
+	Calories: 'Калории',
 	'About dish': 'За ястието',
 	'Menu section': 'Раздел от менюто',
-	'Portion': 'Порция',
-	'Allergens': 'Алергени',
+	Portion: 'Порция',
+	Allergens: 'Алергени',
 	'Browse full menu': 'Преглед на цялото меню',
 	Unavailable: 'Няма',
 } as const;
@@ -73,5 +74,3 @@ export const bgTranslates: Translate[] = Object.entries(bg).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

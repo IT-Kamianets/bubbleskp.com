@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TranslateDirective } from 'wacom';
+import { TranslateDirective } from '@wawjs/ngx-translate';
 
 @Component({
 	imports: [TranslateDirective],

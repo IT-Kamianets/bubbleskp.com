@@ -1,5 +1,5 @@
 ﻿import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
-import { TranslateDirective } from 'wacom';
+import { TranslateDirective } from '@wawjs/ngx-translate';
 
 interface GalleryPhoto {
 	src: string;

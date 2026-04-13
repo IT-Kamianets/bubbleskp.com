@@ -41,7 +41,7 @@ Keep contributions aligned with the current template conventions described in [R
 
 ## Translations
 
-- This repo uses the `wacom` translation stack: `provideTranslate`, `TranslateService`, `TranslatePipe`, and `Translate`
+- This repo uses the `@wawjs/ngx-translate` translation stack: `provideTranslate`, `TranslateService`, `TranslatePipe`, and `Translate`
 - Translation dictionaries live in `src/i18n/<code>.ts` and are aggregated in `src/i18n/index.ts`
 - Language metadata lives in `src/app/feature/language/language.type.ts`, `language.interface.ts`, `language.const.ts`, and `language.service.ts`
 - Keep translation keys aligned with the English source text used in templates and components

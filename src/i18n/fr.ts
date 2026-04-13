@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const fr = {
 	'Go to homepage': "Aller à la page d'accueil",
@@ -21,7 +21,8 @@ export const fr = {
 		'Ouvrez la carte, vérifiez l’itinéraire et partagez l’emplacement avec vos amis.',
 	'Open Google Maps': 'Ouvrir Google Maps',
 	'Open Bubbles KP Instagram page': 'Ouvrir la page Instagram de Bubbles KP',
-	'Open Bubbles KP location in Google Maps': 'Ouvrir l’emplacement de Bubbles KP dans Google Maps',
+	'Open Bubbles KP location in Google Maps':
+		'Ouvrir l’emplacement de Bubbles KP dans Google Maps',
 	Quests: 'Quests',
 	'There are currently no quests': 'There are currently no quests',
 	'Check back later for new activities and special offers.':
@@ -55,14 +56,15 @@ export const fr = {
 	'Cooking time': 'Temps de préparation',
 	'Pairs well with': 'Se marie bien avec',
 	'Dish details': 'Détails du plat',
-	'Ask restaurant staff for portion details': 'Demandez au personnel du restaurant les détails de la portion',
+	'Ask restaurant staff for portion details':
+		'Demandez au personnel du restaurant les détails de la portion',
 	'No allergen information available': 'Aucune information sur les allergènes disponible',
 	'Ask for price': 'Demander le prix',
-	'Calories': 'Calories',
+	Calories: 'Calories',
 	'About dish': 'À propos du plat',
 	'Menu section': 'Section du menu',
-	'Portion': 'Portion',
-	'Allergens': 'Allergènes',
+	Portion: 'Portion',
+	Allergens: 'Allergènes',
 	'Browse full menu': 'Voir tout le menu',
 	Unavailable: 'Indisponible',
 } as const;
@@ -73,5 +75,3 @@ export const frTranslates: Translate[] = Object.entries(fr).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

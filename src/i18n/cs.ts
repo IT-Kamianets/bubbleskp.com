@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const cs = {
 	'Go to homepage': 'Přejít na domovskou stránku',
@@ -55,14 +55,15 @@ export const cs = {
 	'Cooking time': 'Doba přípravy',
 	'Pairs well with': 'Hodí se k',
 	'Dish details': 'Detaily jídla',
-	'Ask restaurant staff for portion details': 'Zeptejte se personálu restaurace na podrobnosti o porci',
+	'Ask restaurant staff for portion details':
+		'Zeptejte se personálu restaurace na podrobnosti o porci',
 	'No allergen information available': 'Informace o alergenech nejsou k dispozici',
 	'Ask for price': 'Zeptejte se na cenu',
-	'Calories': 'Kalorie',
+	Calories: 'Kalorie',
 	'About dish': 'O jídle',
 	'Menu section': 'Sekce menu',
-	'Portion': 'Porce',
-	'Allergens': 'Alergeny',
+	Portion: 'Porce',
+	Allergens: 'Alergeny',
 	'Browse full menu': 'Prohlédnout celé menu',
 	Unavailable: 'Není',
 } as const;
@@ -73,5 +74,3 @@ export const csTranslates: Translate[] = Object.entries(cs).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

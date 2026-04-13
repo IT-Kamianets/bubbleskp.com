@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const hr = {
 	'Go to homepage': 'Idi na početnu stranicu',
@@ -58,11 +58,11 @@ export const hr = {
 	'Ask restaurant staff for portion details': 'Pitajte osoblje restorana za detalje o porciji',
 	'No allergen information available': 'Nema dostupnih informacija o alergenima',
 	'Ask for price': 'Pitajte za cijenu',
-	'Calories': 'Kalorije',
+	Calories: 'Kalorije',
 	'About dish': 'O jelu',
 	'Menu section': 'Odjeljak jelovnika',
-	'Portion': 'Porcija',
-	'Allergens': 'Alergeni',
+	Portion: 'Porcija',
+	Allergens: 'Alergeni',
 	'Browse full menu': 'Pregledaj cijeli jelovnik',
 	Unavailable: 'Nema',
 } as const;
@@ -73,5 +73,3 @@ export const hrTranslates: Translate[] = Object.entries(hr).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

@@ -1,7 +1,8 @@
 import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { ThemeService, TranslatePipe, TranslateService } from 'wacom';
+import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
+import { ThemeService } from '@wawjs/ngx-ui';
 import { LanguageOption } from '../../feature/language/language.interface';
 import { LanguageService } from '../../feature/language/language.service';
 

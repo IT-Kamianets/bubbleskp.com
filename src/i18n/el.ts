@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const el = {
 	'Go to homepage': 'Μετάβαση στην αρχική σελίδα',
@@ -21,7 +21,8 @@ export const el = {
 		'Ανοίξτε τον χάρτη, ελέγξτε τη διαδρομή και μοιραστείτε την τοποθεσία με φίλους.',
 	'Open Google Maps': 'Άνοιγμα Google Maps',
 	'Open Bubbles KP Instagram page': 'Άνοιγμα της σελίδας Instagram του Bubbles KP',
-	'Open Bubbles KP location in Google Maps': 'Άνοιγμα της τοποθεσίας του Bubbles KP στο Google Maps',
+	'Open Bubbles KP location in Google Maps':
+		'Άνοιγμα της τοποθεσίας του Bubbles KP στο Google Maps',
 	Quests: 'Quests',
 	'There are currently no quests': 'There are currently no quests',
 	'Check back later for new activities and special offers.':
@@ -55,14 +56,15 @@ export const el = {
 	'Cooking time': 'Χρόνος προετοιμασίας',
 	'Pairs well with': 'Ταιριάζει με',
 	'Dish details': 'Λεπτομέρειες πιάτου',
-	'Ask restaurant staff for portion details': 'Ρωτήστε το προσωπικό του εστιατορίου για λεπτομέρειες σχετικά με τη μερίδα',
+	'Ask restaurant staff for portion details':
+		'Ρωτήστε το προσωπικό του εστιατορίου για λεπτομέρειες σχετικά με τη μερίδα',
 	'No allergen information available': 'Δεν υπάρχουν διαθέσιμες πληροφορίες για αλλεργιογόνα',
 	'Ask for price': 'Ρωτήστε για την τιμή',
-	'Calories': 'Θερμίδες',
+	Calories: 'Θερμίδες',
 	'About dish': 'Σχετικά με το πιάτο',
 	'Menu section': 'Ενότητα μενού',
-	'Portion': 'Μερίδα',
-	'Allergens': 'Αλλεργιογόνα',
+	Portion: 'Μερίδα',
+	Allergens: 'Αλλεργιογόνα',
 	'Browse full menu': 'Δείτε ολόκληρο το μενού',
 	Unavailable: 'Μη διαθέσιμο',
 } as const;
@@ -73,5 +75,3 @@ export const elTranslates: Translate[] = Object.entries(el).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

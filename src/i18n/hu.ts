@@ -1,4 +1,4 @@
-﻿import { Translate } from 'wacom';
+﻿import { Translate } from '@wawjs/ngx-translate';
 
 export const hu = {
 	'Go to homepage': 'Ugrás a kezdőlapra',
@@ -55,14 +55,15 @@ export const hu = {
 	'Cooking time': 'Elkészítési idő',
 	'Pairs well with': 'Jól illik hozzá',
 	'Dish details': 'Az étel részletei',
-	'Ask restaurant staff for portion details': 'Kérdezze meg az étterem személyzetét az adag részleteiről',
+	'Ask restaurant staff for portion details':
+		'Kérdezze meg az étterem személyzetét az adag részleteiről',
 	'No allergen information available': 'Nincs elérhető allergéninformáció',
 	'Ask for price': 'Érdeklődjön az ár felől',
-	'Calories': 'Kalória',
+	Calories: 'Kalória',
 	'About dish': 'Az ételről',
 	'Menu section': 'Menüszekció',
-	'Portion': 'Adag',
-	'Allergens': 'Allergének',
+	Portion: 'Adag',
+	Allergens: 'Allergének',
 	'Browse full menu': 'Teljes étlap megtekintése',
 	Unavailable: 'Nincs',
 } as const;
@@ -73,5 +74,3 @@ export const huTranslates: Translate[] = Object.entries(hu).map(([sourceText, te
 	sourceText,
 	text,
 }));
-
-

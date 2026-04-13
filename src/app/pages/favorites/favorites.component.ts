@@ -4,7 +4,7 @@ import { MenuItemComponent } from '../../components/menu-item/menu-item.componen
 import { LanguageService } from '../../feature/language/language.service';
 import { FavoritesService } from '../../feature/menu/favorites.service';
 import { buildMenuGroups, MenuGroup, MenuSection } from '../../feature/menu/menu.data';
-import { TranslateDirective } from 'wacom';
+import { TranslateDirective } from '@wawjs/ngx-translate';
 
 @Component({
 	imports: [MenuItemComponent, TranslateDirective],
@@ -33,7 +33,9 @@ export class FavoritesComponent {
 	);
 	protected readonly activeGroup = computed(
 		() =>
-			this.groups().find((group) => group.id === this.selectedGroupId()) ?? this.groups()[0] ?? null,
+			this.groups().find((group) => group.id === this.selectedGroupId()) ??
+			this.groups()[0] ??
+			null,
 	);
 	protected readonly activeSections = computed(() => this.activeGroup()?.sections ?? []);
 	protected readonly hasFavorites = computed(() => this.groups().length > 0);
