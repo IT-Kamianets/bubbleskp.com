@@ -1,5 +1,6 @@
 import categoriesData from '../../../data/categories.json';
 import categoryTranslationsData from '../../../data/categories.translations.json';
+import groupData from '../../../data/group.json';
 import itemsData from '../../../data/items.json';
 import itemTranslationsData from '../../../data/items.translations.json';
 import type { LanguageCode } from '../language/language.type';
@@ -46,6 +47,11 @@ interface RawItemTranslation {
 	};
 }
 
+interface RawGroupDefinition {
+	id: string;
+	names: LocalizedValue;
+}
+
 export interface RawMenuItem {
 	slug: string;
 	title: LocalizedValue;
@@ -79,7 +85,6 @@ export interface MenuItem {
 	image: string;
 	imageAlt: string;
 	soldOut: boolean;
-	displayPrice: string;
 }
 
 export interface MenuSection {
@@ -97,7 +102,9 @@ export interface MenuGroup {
 
 const _categories = categoriesData as RawCategory[];
 const _categoryTranslations = new Map(
-	(categoryTranslationsData as RawCategoryTranslation[]).map((category) => [category.slug, category.data] as const),
+	(categoryTranslationsData as RawCategoryTranslation[]).map(
+		(category) => [category.slug, category.data] as const,
+	),
 );
 const _itemTranslations = new Map(
 	(itemTranslationsData as RawItemTranslation[]).map((item) => [item.slug, item.data] as const),
@@ -117,64 +124,7 @@ for (const item of itemsData as RawItemRecord[]) {
 
 const _menuSections = _categories.map((category) => _toRawMenuSection(category));
 
-const _groupDefinitions = [
-	{
-		id: 'food',
-		names: {
-			ua: 'Їжа',
-			en: 'Food',
-		},
-	},
-	{
-		id: 'drinks',
-		names: {
-			ua: 'Напої',
-			en: 'Drinks',
-		},
-	},
-	{
-		id: 'alcohol',
-		names: {
-			ua: 'Алкоголь',
-			en: 'Alcohol',
-		},
-	},
-	{
-		id: 'cocktails',
-		names: {
-			ua: 'Коктейлі',
-			en: 'Cocktails',
-		},
-	},
-] as const;
-
-const _priceFallbackByLanguage: Record<LanguageCode, string> = {
-	ua: 'Ціну уточнюйте',
-	bg: 'Ask for price',
-	hr: 'Ask for price',
-	cs: 'Ask for price',
-	da: 'Ask for price',
-	nl: 'Ask for price',
-	en: 'Ask for price',
-	et: 'Ask for price',
-	fi: 'Ask for price',
-	fr: 'Ask for price',
-	de: 'Ask for price',
-	el: 'Ask for price',
-	hu: 'Ask for price',
-	ga: 'Ask for price',
-	it: 'Ask for price',
-	lv: 'Ask for price',
-	lt: 'Ask for price',
-	mt: 'Ask for price',
-	pl: 'Ask for price',
-	pt: 'Ask for price',
-	ro: 'Ask for price',
-	sk: 'Ask for price',
-	sl: 'Ask for price',
-	es: 'Ask for price',
-	sv: 'Ask for price',
-};
+const _groupDefinitions = groupData as RawGroupDefinition[];
 
 export const rawMenuSections = _menuSections;
 export const dishSlugs = _menuSections.flatMap((section) => section.items.map((item) => item.slug));
@@ -183,7 +133,8 @@ export const menuSections = buildMenuSections('ua');
 
 export const menuGroups = buildMenuGroups('ua');
 
-export const navigationSection = menuSections.find((section) => section.id === 'burgers') ?? menuSections[0];
+export const navigationSection =
+	menuSections.find((section) => section.id === 'burgers') ?? menuSections[0];
 
 export function buildMenuSections(language: LanguageCode) {
 	return _menuSections.map((section) => _toMenuSection(section, language));
@@ -213,7 +164,9 @@ export function findRawMenuItemBySlug(slug: string) {
 
 function _toRawMenuSection(category: RawCategory): RawMenuSection {
 	const categoryTranslations = _categoryTranslations.get(category.slug);
-	const items = (_itemsByCategorySlug.get(category.slug) ?? []).map((item) => _toRawMenuItem(item));
+	const items = (_itemsByCategorySlug.get(category.slug) ?? []).map((item) =>
+		_toRawMenuItem(item),
+	);
 
 	return {
 		slug: category.slug,
@@ -290,14 +243,12 @@ function _toMenuSection(section: RawMenuSection, language: LanguageCode): MenuSe
 			image: item.image,
 			imageAlt: _translateValue(item.title, language) ?? item.slug,
 			soldOut: false,
-			displayPrice:
-				item.price === null ? _priceFallbackByLanguage[language] : `${item.price} ₴`,
 		})),
 	};
 }
 
-function _resolveGroupName(names: { ua: string; en: string }, language: LanguageCode) {
-	return language === 'ua' ? names.ua : names.en;
+function _resolveGroupName(names: LocalizedValue, language: LanguageCode) {
+	return _translateValue(names, language) ?? '';
 }
 
 function _translateValue(value: LocalizedValue | null | undefined, language: LanguageCode) {
@@ -338,7 +289,11 @@ export function cleanText(value: string | null) {
 		return null;
 	}
 
-	return value.replace(/показати$/i, '').replace(/\s+/g, ' ').replace(/\s([,.!?:;])/g, '$1').trim();
+	return value
+		.replace(/показати$/i, '')
+		.replace(/\s+/g, ' ')
+		.replace(/\s([,.!?:;])/g, '$1')
+		.trim();
 }
 
 export function createId(value: string) {

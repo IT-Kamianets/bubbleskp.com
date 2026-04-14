@@ -3,7 +3,6 @@ import { Injectable, PLATFORM_ID, inject, signal } from '@angular/core';
 import { TranslateService } from '@wawjs/ngx-translate';
 
 import { environment } from '../../../environments/environment';
-import { translates } from '../../../i18n';
 import { LANGUAGES } from './language.const';
 import { LanguageOption } from './language.interface';
 import { LanguageCode } from './language.type';
@@ -33,7 +32,7 @@ export class LanguageService {
 
 	setLanguage(language: LanguageCode) {
 		this.language.set(language);
-		this._translateService.setMany(this._buildTranslations(language));
+		void this._translateService.setLanguage(language);
 		this._doc.documentElement.lang = this.getLanguage(language).htmlLang;
 
 		if (this._isBrowser) {
@@ -51,10 +50,6 @@ export class LanguageService {
 
 	getLanguage(code: LanguageCode) {
 		return this.languages().find((language) => language.code === code) ?? this.languages()[0]!;
-	}
-
-	private _buildTranslations(language: LanguageCode) {
-		return translates[language];
 	}
 
 	private _isSupportedLanguage(value: string | null | undefined) {

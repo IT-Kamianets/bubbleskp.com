@@ -2,11 +2,11 @@ import { ChangeDetectionStrategy, Component, computed, inject, input } from '@an
 import { RouterLink } from '@angular/router';
 import { FavoritesService } from '../../feature/menu/favorites.service';
 import { MenuItem } from '../../feature/menu/menu.data';
-import { TranslateService } from '@wawjs/ngx-translate';
+import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
 
 @Component({
 	selector: 'app-menu-item',
-	imports: [RouterLink],
+	imports: [RouterLink, TranslatePipe],
 	templateUrl: './menu-item.component.html',
 	styleUrl: './menu-item.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,

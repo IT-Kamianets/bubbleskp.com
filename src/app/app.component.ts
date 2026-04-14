@@ -1,6 +1,7 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { TopbarComponent } from './layouts/topbar/topbar.component';
+import { ScrollService } from './services/scroll.service';
 
 @Component({
 	selector: 'app-root',
@@ -48,6 +49,8 @@ import { TopbarComponent } from './layouts/topbar/topbar.component';
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class App {
+	private readonly _scrollService = inject(ScrollService);
+
 	protected readonly navItems = [
 		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
 		{ label: 'Gallery', icon: 'photo_library', route: '/gallery', exact: true },
@@ -55,4 +58,8 @@ export class App {
 		{ label: 'Favorite', icon: 'favorite', route: '/favorites', exact: true },
 		{ label: 'Menu', icon: 'restaurant_menu', route: '/', exact: true },
 	];
+
+	constructor() {
+		this._scrollService.initialize();
+	}
 }
