@@ -1,27 +1,33 @@
 [
 	{
+		"name": "Complex breakfasts",
+		"description": "Breakfast sets for hotel guests.",
+		"section": "hotel-breakfast",
+		"slug": "complex-breakfasts"
+	},
+	{
 		"name": "Breakfasts",
-		"description": "Morning meals and light starters.",
+		"description": "Morning dishes served from 9:00 to 11:00.",
 		"section": "food",
 		"slug": "breakfasts"
 	},
 	{
-		"name": "Soups",
-		"description": "Warm and hearty first courses.",
-		"section": "food",
-		"slug": "soups"
-	},
-	{
 		"name": "Salads",
-		"description": "Fresh and healthy combinations.",
+		"description": "Fresh salads and vegetable dishes.",
 		"section": "food",
 		"slug": "salads"
 	},
 	{
 		"name": "Appetizers",
-		"description": "Small dishes to start your meal.",
+		"description": "Snacks and dishes to share.",
 		"section": "food",
 		"slug": "appetizers"
+	},
+	{
+		"name": "Soups",
+		"description": "Warm first courses.",
+		"section": "food",
+		"slug": "soups"
 	},
 	{
 		"name": "Pasta",
@@ -30,34 +36,58 @@
 		"slug": "pasta"
 	},
 	{
-		"name": "Burgers",
-		"description": "Juicy burgers with various fillings.",
-		"section": "food",
-		"slug": "burgers"
-	},
-	{
 		"name": "Grill",
 		"description": "Grilled meat, fish, and vegetables.",
 		"section": "food",
 		"slug": "grill"
 	},
 	{
+		"name": "Burgers & Croissants",
+		"description": "Burgers and croissants served as main snacks.",
+		"section": "food",
+		"slug": "burgers-croissants"
+	},
+	{
 		"name": "Pizza",
-		"description": "Classic and signature pizzas.",
+		"description": "Pizza with classic and seafood toppings.",
 		"section": "food",
 		"slug": "pizza"
 	},
 	{
 		"name": "Desserts",
-		"description": "Sweet treats and desserts.",
+		"description": "Sweet dishes and fruit desserts.",
 		"section": "food",
 		"slug": "desserts"
 	},
 	{
-		"name": "Drinks",
-		"description": "Refreshing non-alcoholic beverages.",
-		"section": "drinks",
-		"slug": "drinks"
+		"name": "Kids Menu",
+		"description": "Simple dishes for children.",
+		"section": "food",
+		"slug": "kids-menu"
+	},
+	{
+		"name": "Banquet Salads",
+		"description": "Salads available by pre-order.",
+		"section": "food",
+		"slug": "banquet-salads"
+	},
+	{
+		"name": "Banquet Appetizers",
+		"description": "Appetizers available by pre-order.",
+		"section": "food",
+		"slug": "banquet-appetizers"
+	},
+	{
+		"name": "Main Dishes",
+		"description": "Main dishes available by pre-order.",
+		"section": "food",
+		"slug": "main-dishes"
+	},
+	{
+		"name": "Additions",
+		"description": "Bread and sauces.",
+		"section": "food",
+		"slug": "additions"
 	},
 	{
 		"name": "Coffee",
@@ -67,9 +97,15 @@
 	},
 	{
 		"name": "Tea",
-		"description": "Wide selection of teas.",
+		"description": "Tea selection.",
 		"section": "drinks",
 		"slug": "tea"
+	},
+	{
+		"name": "Drinks",
+		"description": "Non-alcoholic drinks.",
+		"section": "drinks",
+		"slug": "drinks"
 	},
 	{
 		"name": "Draft Beer",
@@ -78,110 +114,80 @@
 		"slug": "draft-beer"
 	},
 	{
-		"name": "Sparkling Wine (Draft)",
-		"description": "Sparkling wine served by the glass.",
-		"section": "alcohol",
-		"slug": "sparkling-wine-draft"
-	},
-	{
 		"name": "Whiskey",
-		"description": "Premium whiskey selection.",
+		"description": "Whiskey selection served in 50 ml portions.",
 		"section": "alcohol",
 		"slug": "whiskey"
 	},
 	{
-		"name": "Bourbon",
-		"description": "American-style whiskey.",
-		"section": "alcohol",
-		"slug": "bourbon"
-	},
-	{
-		"name": "Brandy",
-		"description": "Distilled wine-based spirits.",
-		"section": "alcohol",
-		"slug": "brandy"
-	},
-	{
 		"name": "Vodka",
-		"description": "Classic and flavored vodka.",
+		"description": "Vodka selection served in 50 ml portions.",
 		"section": "alcohol",
 		"slug": "vodka"
 	},
 	{
 		"name": "Tequila",
-		"description": "Agave-based Mexican spirit.",
+		"description": "Tequila selection served in 50 ml portions.",
 		"section": "alcohol",
 		"slug": "tequila"
 	},
 	{
 		"name": "Gin",
-		"description": "Botanical spirit with juniper notes.",
+		"description": "Gin selection served in 50 ml portions.",
 		"section": "alcohol",
 		"slug": "gin"
 	},
 	{
 		"name": "Rum",
-		"description": "Sugarcane-based spirit.",
+		"description": "Rum selection served in 50 ml portions.",
 		"section": "alcohol",
 		"slug": "rum"
 	},
 	{
-		"name": "Vermouth",
-		"description": "Aromatized fortified wines.",
-		"section": "alcohol",
-		"slug": "vermouth"
-	},
-	{
 		"name": "Liqueurs",
-		"description": "Sweet flavored spirits.",
+		"description": "Liqueurs served in 50 ml portions.",
 		"section": "alcohol",
 		"slug": "liqueurs"
 	},
 	{
-		"name": "Bottled Wine",
-		"description": "Wine served by the bottle.",
-		"section": "alcohol",
-		"slug": "bottled-wine"
-	},
-	{
 		"name": "Sparkling Wine",
-		"description": "Champagne and sparkling wines.",
+		"description": "Sparkling wine by bottle or glass.",
 		"section": "alcohol",
 		"slug": "sparkling-wine"
 	},
 	{
-		"name": "Martini Cocktails",
-		"description": "Classic and modern martini variations.",
-		"section": "cocktails",
-		"slug": "martini-cocktails"
-	},
-	{
 		"name": "Highball Mixes",
-		"description": "Light and refreshing mixed drinks.",
+		"description": "Mixed drinks served tall.",
 		"section": "cocktails",
 		"slug": "highball-mixes"
 	},
 	{
 		"name": "On the Rocks",
-		"description": "Spirits served over ice.",
+		"description": "Cocktails served over ice.",
 		"section": "cocktails",
 		"slug": "on-the-rocks"
 	},
 	{
-		"name": "Shots",
-		"description": "Quick and strong cocktail shots.",
-		"section": "cocktails",
-		"slug": "shots"
-	},
-	{
 		"name": "Long Cocktails",
-		"description": "Tall and refreshing cocktails.",
+		"description": "Tall cocktails and signature mixes.",
 		"section": "cocktails",
 		"slug": "long-cocktails"
 	},
 	{
+		"name": "Shots",
+		"description": "Shot cocktails, including options for two.",
+		"section": "cocktails",
+		"slug": "shots"
+	},
+	{
+		"name": "Extreme Cocktails",
+		"description": "Strong short cocktails.",
+		"section": "cocktails",
+		"slug": "extreme-cocktails"
+	},
+	{
 		"name": "Non-Alcoholic Cocktails",
-		"description": "Alcohol-free mixed drinks.",
+		"description": "Alcohol-free cocktails.",
 		"section": "cocktails",
 		"slug": "non-alcoholic-cocktails"
 	}

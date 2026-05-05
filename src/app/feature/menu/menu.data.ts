@@ -30,9 +30,9 @@ interface RawItemRecord {
 	description: string;
 	labels: string[];
 	fullDescription: string;
-	suggested: string[];
+	suggested: string[] | number | null;
 	cookTimeMinutes: number | null;
-	caloriesKcal: number | null;
+	caloriesKcal: number | string[] | null;
 	portion: string | null;
 	allergens: string[];
 }
@@ -134,7 +134,7 @@ export const menuSections = buildMenuSections('ua');
 export const menuGroups = buildMenuGroups('ua');
 
 export const navigationSection =
-	menuSections.find((section) => section.id === 'burgers') ?? menuSections[0];
+	menuSections.find((section) => section.id === 'burgers-croissants') ?? menuSections[0];
 
 export function buildMenuSections(language: LanguageCode) {
 	return _menuSections.map((section) => _toMenuSection(section, language));
@@ -187,40 +187,105 @@ function _toRawMenuSection(category: RawCategory): RawMenuSection {
 
 function _toRawMenuItem(item: RawItemRecord): RawMenuItem {
 	const itemTranslations = _itemTranslations.get(item.slug);
+	const normalized = _normalizeItemRecord(item);
+
+	return {
+		slug: normalized.slug,
+		title: {
+			ua: itemTranslations?.title.ua ?? normalized.title,
+			en: itemTranslations?.title.en ?? normalized.title,
+			...itemTranslations?.title,
+		},
+		price: normalized.price,
+		description: {
+			ua: itemTranslations?.description.ua ?? normalized.description,
+			en: itemTranslations?.description.en ?? normalized.description,
+			...itemTranslations?.description,
+		},
+		labels: _buildLocalizedLabels(normalized.labels, itemTranslations?.labels),
+		image: `/item/${normalized.slug}.webp`,
+		fullDescription: {
+			ua: itemTranslations?.fullDescription?.ua ?? normalized.fullDescription,
+			en: itemTranslations?.fullDescription?.en ?? normalized.fullDescription,
+			...itemTranslations?.fullDescription,
+		},
+		suggested: normalized.suggested,
+		cookTimeMinutes: normalized.cookTimeMinutes,
+		caloriesKcal: normalized.caloriesKcal,
+		portion: normalized.portion,
+		allergens: normalized.allergens,
+	};
+}
+
+interface NormalizedItemRecord {
+	slug: string;
+	categorySlug: string;
+	title: string;
+	price: number | null;
+	description: string;
+	labels: string[];
+	fullDescription: string;
+	suggested: string[];
+	cookTimeMinutes: number | null;
+	caloriesKcal: number | null;
+	portion: string | null;
+	allergens: string[];
+}
+
+function _buildLocalizedLabels(
+	labels: string[],
+	translatedLabels: LocalizedValue[] | undefined,
+) {
+	const count = Math.max(labels.length, translatedLabels?.length ?? 0);
+
+	return Array.from({ length: count }, (_, index) => {
+		const label = labels[index] ?? translatedLabels?.[index]?.en ?? translatedLabels?.[index]?.ua ?? '';
+		const translatedLabel = translatedLabels?.[index];
+
+		return {
+			ua: translatedLabel?.ua ?? label,
+			en: translatedLabel?.en ?? label,
+			...translatedLabel,
+		};
+	});
+}
+
+function _normalizeItemRecord(item: RawItemRecord): NormalizedItemRecord {
+	const hasShiftedFacts = typeof item.suggested === 'number' && Array.isArray(item.caloriesKcal);
+
+	if (!hasShiftedFacts) {
+		return {
+			slug: item.slug,
+			categorySlug: item.categorySlug,
+			title: item.title,
+			price: item.price,
+			description: item.description,
+			labels: item.labels,
+			fullDescription: item.fullDescription,
+			suggested: Array.isArray(item.suggested) ? item.suggested : [],
+			cookTimeMinutes: item.cookTimeMinutes,
+			caloriesKcal: typeof item.caloriesKcal === 'number' ? item.caloriesKcal : null,
+			allergens: item.allergens,
+			portion: item.portion || null,
+		};
+	}
+
+	const shiftedCookTimeMinutes = typeof item.suggested === 'number' ? item.suggested : null;
+	const shiftedAllergens = Array.isArray(item.caloriesKcal) ? item.caloriesKcal : [];
 
 	return {
 		slug: item.slug,
-		title: {
-			ua: itemTranslations?.title.ua ?? item.title,
-			en: itemTranslations?.title.en ?? item.title,
-			...itemTranslations?.title,
-		},
+		categorySlug: item.categorySlug,
+		title: item.title,
 		price: item.price,
-		description: {
-			ua: itemTranslations?.description.ua ?? item.description,
-			en: itemTranslations?.description.en ?? item.description,
-			...itemTranslations?.description,
-		},
-		labels: item.labels.map((label, index) => {
-			const translatedLabel = itemTranslations?.labels[index];
-
-			return {
-				ua: translatedLabel?.ua ?? label,
-				en: translatedLabel?.en ?? label,
-				...translatedLabel,
-			};
-		}),
-		image: `/item/${item.slug}.webp`,
-		fullDescription: {
-			ua: itemTranslations?.fullDescription?.ua ?? item.fullDescription,
-			en: itemTranslations?.fullDescription?.en ?? item.fullDescription,
-			...itemTranslations?.fullDescription,
-		},
-		suggested: item.suggested,
-		cookTimeMinutes: item.cookTimeMinutes,
-		caloriesKcal: item.caloriesKcal,
-		portion: item.portion,
-		allergens: item.allergens,
+		description: item.description,
+		labels: item.labels,
+		fullDescription: item.fullDescription,
+		suggested: [],
+		cookTimeMinutes: shiftedCookTimeMinutes,
+		caloriesKcal: item.cookTimeMinutes,
+		allergens: shiftedAllergens,
+		portion: item.portion || null,
 	};
 }
 

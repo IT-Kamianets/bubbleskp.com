@@ -1,5 +1,12 @@
 [
 	{
+		"id": "hotel-breakfast",
+		"names": {
+			"en": "Hotel breakfast",
+			"ua": "Готельний сніданок"
+		}
+	},
+	{
 		"id": "food",
 		"names": {
 			"ua": "Їжа",
