@@ -87,7 +87,7 @@ export class RoomsComponent {
 		},
 		{
 			label: 'Написати у Viber',
-			href: 'viber://add?number=38068889842',
+			href: 'viber://add?number=380968889842',
 			description: 'Швидке бронювання та уточнення деталей',
 		},
 		{
