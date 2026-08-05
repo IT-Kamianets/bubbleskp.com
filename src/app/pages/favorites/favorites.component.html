@@ -1,4 +1,5 @@
 <main class="mx-auto max-w-[var(--container)] px-2 pb-8 pt-2 sm:px-4 sm:pb-10">
+	<h1 class="sr-only">Збережені страви з меню Bubbles</h1>
 	@if (hasFavorites()) {
 		<section
 			class="sticky top-0 z-20 overflow-hidden rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
@@ -71,9 +72,9 @@
 			>
 				Favorites
 			</p>
-			<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+			<h2 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
 				No saved dishes
-			</h1>
+			</h2>
 			<p class="mt-2 text-sm text-[var(--c-text-muted)]" translate>
 				Add items from the menu to favorites, and they will appear here.
 			</p>

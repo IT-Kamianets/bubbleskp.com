@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { TopbarComponent } from './layouts/topbar/topbar.component';
 import { ScrollService } from './services/scroll.service';
+import { SeoService } from './services/seo.service';
 
 @Component({
 	selector: 'app-root',
@@ -50,6 +51,7 @@ import { ScrollService } from './services/scroll.service';
 })
 export class App {
 	private readonly _scrollService = inject(ScrollService);
+	private readonly _seoService = inject(SeoService);
 
 	protected readonly navItems = [
 		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
@@ -61,5 +63,6 @@ export class App {
 
 	constructor() {
 		this._scrollService.initialize();
+		this._seoService.initialize();
 	}
 }

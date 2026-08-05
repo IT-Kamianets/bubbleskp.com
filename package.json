@@ -3,6 +3,8 @@
 	"version": "0.0.0",
 	"scripts": {
 		"start": "ng serve",
+		"sitemap": "node scripts/generate-sitemap.mjs",
+		"prebuild": "npm run sitemap",
 		"build": "ng build --configuration=production",
 		"serve:ssr:app": "node dist/app/server/server.mjs"
 	},
